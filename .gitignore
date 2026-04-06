@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# python
+backend/.venv/
+backend/__pycache__/
+backend/**/*.pyc
+backend/app/.env
+
+# generated images
+backend/static/generated/
+
+# alembic / local db artifacts if needed
+backend/*.db
+
+# node / next
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+frontend/.env*
+
+# logs
+*.log
+
+# editor
+.vscode/
+.idea/
